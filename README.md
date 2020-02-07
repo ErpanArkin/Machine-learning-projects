@@ -7,3 +7,4 @@ Tutorials on machine learning with python
 3. K Nearest Neighbors for classification of an unlabeled dataset
 4. Decision Tree and Random Forest for prediction of reliable borrower from LendClub.com
 5. Support Vector Machines for classification of iris dataset
+6. Natural Language Processing for rating prediction from reviews
