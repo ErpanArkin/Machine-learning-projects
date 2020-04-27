@@ -64,6 +64,11 @@ input {
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
     	<input type="text" name="rate" placeholder="review text" required="required" />
+        <label for="model_engine">Choose a model:</label>
+        <select id="model_engine" name="Model Engine" required="required">
+            <option value="ml">ML</option>
+            <option value="dl">DL</option>
+        </select>
         <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
     </form>
 
